@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC5ABA8D1CB9EEB500691065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABA8C1CB9EEB500691065 /* AppDelegate.swift */; };
+		FC5ABA8F1CB9EEB500691065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABA8E1CB9EEB500691065 /* ViewController.swift */; };
+		FC5ABA921CB9EEB500691065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5ABA901CB9EEB500691065 /* Main.storyboard */; };
+		FC5ABA951CB9EEB500691065 /* weixin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABA931CB9EEB500691065 /* weixin.xcdatamodeld */; };
+		FC5ABA971CB9EEB500691065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5ABA961CB9EEB500691065 /* Assets.xcassets */; };
+		FC5ABA9A1CB9EEB500691065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5ABA981CB9EEB500691065 /* LaunchScreen.storyboard */; };
+		FC5ABAA51CB9EEB500691065 /* weixinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABAA41CB9EEB500691065 /* weixinTests.swift */; };
+		FC5ABAB01CB9EEB500691065 /* weixinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABAAF1CB9EEB500691065 /* weixinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC5ABAA11CB9EEB500691065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC5ABA811CB9EEB500691065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC5ABA881CB9EEB500691065;
+			remoteInfo = weixin;
+		};
+		FC5ABAAC1CB9EEB500691065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC5ABA811CB9EEB500691065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC5ABA881CB9EEB500691065;
+			remoteInfo = weixin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC5ABA891CB9EEB500691065 /* weixin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weixin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5ABA8C1CB9EEB500691065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC5ABA8E1CB9EEB500691065 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC5ABA911CB9EEB500691065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC5ABA941CB9EEB500691065 /* weixin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = weixin.xcdatamodel; sourceTree = "<group>"; };
+		FC5ABA961CB9EEB500691065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC5ABA991CB9EEB500691065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC5ABA9B1CB9EEB500691065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5ABAA01CB9EEB500691065 /* weixinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weixinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5ABAA41CB9EEB500691065 /* weixinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weixinTests.swift; sourceTree = "<group>"; };
+		FC5ABAA61CB9EEB500691065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5ABAAB1CB9EEB500691065 /* weixinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weixinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5ABAAF1CB9EEB500691065 /* weixinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weixinUITests.swift; sourceTree = "<group>"; };
+		FC5ABAB11CB9EEB500691065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC5ABA861CB9EEB500691065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5ABA9D1CB9EEB500691065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5ABAA81CB9EEB500691065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC5ABA801CB9EEB500691065 = {
+			isa = PBXGroup;
+			children = (
+				FC5ABA8B1CB9EEB500691065 /* weixin */,
+				FC5ABAA31CB9EEB500691065 /* weixinTests */,
+				FC5ABAAE1CB9EEB500691065 /* weixinUITests */,
+				FC5ABA8A1CB9EEB500691065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC5ABA8A1CB9EEB500691065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC5ABA891CB9EEB500691065 /* weixin.app */,
+				FC5ABAA01CB9EEB500691065 /* weixinTests.xctest */,
+				FC5ABAAB1CB9EEB500691065 /* weixinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC5ABA8B1CB9EEB500691065 /* weixin */ = {
+			isa = PBXGroup;
+			children = (
+				FC5ABA8C1CB9EEB500691065 /* AppDelegate.swift */,
+				FC5ABA8E1CB9EEB500691065 /* ViewController.swift */,
+				FC5ABA901CB9EEB500691065 /* Main.storyboard */,
+				FC5ABA961CB9EEB500691065 /* Assets.xcassets */,
+				FC5ABA981CB9EEB500691065 /* LaunchScreen.storyboard */,
+				FC5ABA9B1CB9EEB500691065 /* Info.plist */,
+				FC5ABA931CB9EEB500691065 /* weixin.xcdatamodeld */,
+			);
+			path = weixin;
+			sourceTree = "<group>";
+		};
+		FC5ABAA31CB9EEB500691065 /* weixinTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5ABAA41CB9EEB500691065 /* weixinTests.swift */,
+				FC5ABAA61CB9EEB500691065 /* Info.plist */,
+			);
+			path = weixinTests;
+			sourceTree = "<group>";
+		};
+		FC5ABAAE1CB9EEB500691065 /* weixinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5ABAAF1CB9EEB500691065 /* weixinUITests.swift */,
+				FC5ABAB11CB9EEB500691065 /* Info.plist */,
+			);
+			path = weixinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC5ABA881CB9EEB500691065 /* weixin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5ABAB41CB9EEB500691065 /* Build configuration list for PBXNativeTarget "weixin" */;
+			buildPhases = (
+				FC5ABA851CB9EEB500691065 /* Sources */,
+				FC5ABA861CB9EEB500691065 /* Frameworks */,
+				FC5ABA871CB9EEB500691065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weixin;
+			productName = weixin;
+			productReference = FC5ABA891CB9EEB500691065 /* weixin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC5ABA9F1CB9EEB500691065 /* weixinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5ABAB71CB9EEB500691065 /* Build configuration list for PBXNativeTarget "weixinTests" */;
+			buildPhases = (
+				FC5ABA9C1CB9EEB500691065 /* Sources */,
+				FC5ABA9D1CB9EEB500691065 /* Frameworks */,
+				FC5ABA9E1CB9EEB500691065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5ABAA21CB9EEB500691065 /* PBXTargetDependency */,
+			);
+			name = weixinTests;
+			productName = weixinTests;
+			productReference = FC5ABAA01CB9EEB500691065 /* weixinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC5ABAAA1CB9EEB500691065 /* weixinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5ABABA1CB9EEB500691065 /* Build configuration list for PBXNativeTarget "weixinUITests" */;
+			buildPhases = (
+				FC5ABAA71CB9EEB500691065 /* Sources */,
+				FC5ABAA81CB9EEB500691065 /* Frameworks */,
+				FC5ABAA91CB9EEB500691065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5ABAAD1CB9EEB500691065 /* PBXTargetDependency */,
+			);
+			name = weixinUITests;
+			productName = weixinUITests;
+			productReference = FC5ABAAB1CB9EEB500691065 /* weixinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC5ABA811CB9EEB500691065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "博 郑&&书潇 黄";
+				TargetAttributes = {
+					FC5ABA881CB9EEB500691065 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FC5ABA9F1CB9EEB500691065 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FC5ABA881CB9EEB500691065;
+					};
+					FC5ABAAA1CB9EEB500691065 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FC5ABA881CB9EEB500691065;
+					};
+				};
+			};
+			buildConfigurationList = FC5ABA841CB9EEB500691065 /* Build configuration list for PBXProject "weixin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC5ABA801CB9EEB500691065;
+			productRefGroup = FC5ABA8A1CB9EEB500691065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC5ABA881CB9EEB500691065 /* weixin */,
+				FC5ABA9F1CB9EEB500691065 /* weixinTests */,
+				FC5ABAAA1CB9EEB500691065 /* weixinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC5ABA871CB9EEB500691065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5ABA9A1CB9EEB500691065 /* LaunchScreen.storyboard in Resources */,
+				FC5ABA971CB9EEB500691065 /* Assets.xcassets in Resources */,
+				FC5ABA921CB9EEB500691065 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5ABA9E1CB9EEB500691065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5ABAA91CB9EEB500691065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC5ABA851CB9EEB500691065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5ABA951CB9EEB500691065 /* weixin.xcdatamodeld in Sources */,
+				FC5ABA8F1CB9EEB500691065 /* ViewController.swift in Sources */,
+				FC5ABA8D1CB9EEB500691065 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5ABA9C1CB9EEB500691065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5ABAA51CB9EEB500691065 /* weixinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5ABAA71CB9EEB500691065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5ABAB01CB9EEB500691065 /* weixinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC5ABAA21CB9EEB500691065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC5ABA881CB9EEB500691065 /* weixin */;
+			targetProxy = FC5ABAA11CB9EEB500691065 /* PBXContainerItemProxy */;
+		};
+		FC5ABAAD1CB9EEB500691065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC5ABA881CB9EEB500691065 /* weixin */;
+			targetProxy = FC5ABAAC1CB9EEB500691065 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC5ABA901CB9EEB500691065 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5ABA911CB9EEB500691065 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC5ABA981CB9EEB500691065 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5ABA991CB9EEB500691065 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC5ABAB21CB9EEB500691065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC5ABAB31CB9EEB500691065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC5ABAB51CB9EEB500691065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weixin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zb-hsx.weixin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC5ABAB61CB9EEB500691065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weixin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zb-hsx.weixin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC5ABAB81CB9EEB500691065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = weixinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zb-hsx.weixinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weixin.app/weixin";
+			};
+			name = Debug;
+		};
+		FC5ABAB91CB9EEB500691065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = weixinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zb-hsx.weixinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weixin.app/weixin";
+			};
+			name = Release;
+		};
+		FC5ABABB1CB9EEB500691065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = weixinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zb-hsx.weixinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = weixin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FC5ABABC1CB9EEB500691065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = weixinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zb-hsx.weixinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = weixin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC5ABA841CB9EEB500691065 /* Build configuration list for PBXProject "weixin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5ABAB21CB9EEB500691065 /* Debug */,
+				FC5ABAB31CB9EEB500691065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5ABAB41CB9EEB500691065 /* Build configuration list for PBXNativeTarget "weixin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5ABAB51CB9EEB500691065 /* Debug */,
+				FC5ABAB61CB9EEB500691065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC5ABAB71CB9EEB500691065 /* Build configuration list for PBXNativeTarget "weixinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5ABAB81CB9EEB500691065 /* Debug */,
+				FC5ABAB91CB9EEB500691065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC5ABABA1CB9EEB500691065 /* Build configuration list for PBXNativeTarget "weixinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5ABABB1CB9EEB500691065 /* Debug */,
+				FC5ABABC1CB9EEB500691065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC5ABA931CB9EEB500691065 /* weixin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC5ABA941CB9EEB500691065 /* weixin.xcdatamodel */,
+			);
+			currentVersion = FC5ABA941CB9EEB500691065 /* weixin.xcdatamodel */;
+			path = weixin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC5ABA811CB9EEB500691065 /* Project object */;
+}
