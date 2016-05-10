@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D71A576B7070ACF9839BB3F1 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B48418FA71679C0C4CDDFF /* Pods.framework */; };
+		FC06D2541CCDA5FE00CD51D0 /* WoHeadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06D2531CCDA5FE00CD51D0 /* WoHeadTableViewCell.swift */; };
+		FC06D2561CCDAAD100CD51D0 /* NormalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06D2551CCDAAD100CD51D0 /* NormalTableViewCell.swift */; };
+		FC06D2581CCDBA5B00CD51D0 /* FaXianNormalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06D2571CCDBA5B00CD51D0 /* FaXianNormalTableViewCell.swift */; };
+		FC06D25C1CCDCDD000CD51D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06D25B1CCDCDD000CD51D0 /* LoginViewController.swift */; };
+		FC06D25E1CCDF5F900CD51D0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06D25D1CCDF5F900CD51D0 /* RegisterViewController.swift */; };
+		FC1CFCCE1CC47ADB0032FE2A /* WoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CFCCD1CC47ADB0032FE2A /* WoTableViewController.swift */; };
+		FC1CFCD01CC5171A0032FE2A /* FaXianTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CFCCF1CC5171A0032FE2A /* FaXianTableViewController.swift */; };
 		FC5ABA8D1CB9EEB500691065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABA8C1CB9EEB500691065 /* AppDelegate.swift */; };
 		FC5ABA8F1CB9EEB500691065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABA8E1CB9EEB500691065 /* ViewController.swift */; };
-		FC5ABA921CB9EEB500691065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5ABA901CB9EEB500691065 /* Main.storyboard */; };
 		FC5ABA951CB9EEB500691065 /* weixin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABA931CB9EEB500691065 /* weixin.xcdatamodeld */; };
 		FC5ABA971CB9EEB500691065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5ABA961CB9EEB500691065 /* Assets.xcassets */; };
 		FC5ABA9A1CB9EEB500691065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5ABA981CB9EEB500691065 /* LaunchScreen.storyboard */; };
 		FC5ABAA51CB9EEB500691065 /* weixinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABAA41CB9EEB500691065 /* weixinTests.swift */; };
 		FC5ABAB01CB9EEB500691065 /* weixinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABAAF1CB9EEB500691065 /* weixinUITests.swift */; };
+		FC5ABAC31CB9F20300691065 /* StatusLightTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABAC21CB9F20300691065 /* StatusLightTabBarController.swift */; };
+		FC5ABAC51CB9F27400691065 /* WeiXinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABAC41CB9F27400691065 /* WeiXinTableViewController.swift */; };
+		FC5ABAC71CB9F29700691065 /* TongXunLuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABAC61CB9F29700691065 /* TongXunLuTableViewController.swift */; };
+		FC5ABACD1CB9FC3D00691065 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FC5ABACC1CB9FC3D00691065 /* Podfile */; };
+		FC5ABAD41CBA051500691065 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABAD31CBA051500691065 /* config.swift */; };
+		FC5DBF771CCF351D007DD610 /* PersonInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5DBF761CCF351D007DD610 /* PersonInfoTableViewController.swift */; };
+		FC5DBF791CCF378F007DD610 /* PersonInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5DBF781CCF378F007DD610 /* PersonInfoTableViewCell.swift */; };
+		FC5DBF7B1CCF8725007DD610 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5DBF7A1CCF8725007DD610 /* Media.xcassets */; };
+		FC9597471CCE0B89005EDC55 /* PhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9597461CCE0B89005EDC55 /* PhotoPickerViewController.swift */; };
+		FCA478AB1CE0D7A70063CEC0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA478AA1CE0D7A70063CEC0 /* SystemConfiguration.framework */; };
+		FCA478AC1CE0EA5E0063CEC0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06D25B1CCDCDD000CD51D0 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +53,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83D77721861952DED7C1498E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A7B48418FA71679C0C4CDDFF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21C037D99CE20A93C43F3D6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FC06D2531CCDA5FE00CD51D0 /* WoHeadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoHeadTableViewCell.swift; sourceTree = "<group>"; };
+		FC06D2551CCDAAD100CD51D0 /* NormalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalTableViewCell.swift; sourceTree = "<group>"; };
+		FC06D2571CCDBA5B00CD51D0 /* FaXianNormalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaXianNormalTableViewCell.swift; sourceTree = "<group>"; };
+		FC06D25B1CCDCDD000CD51D0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FC06D25D1CCDF5F900CD51D0 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FC1CFCCD1CC47ADB0032FE2A /* WoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoTableViewController.swift; sourceTree = "<group>"; };
+		FC1CFCCF1CC5171A0032FE2A /* FaXianTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaXianTableViewController.swift; sourceTree = "<group>"; };
 		FC5ABA891CB9EEB500691065 /* weixin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weixin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5ABA8C1CB9EEB500691065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC5ABA8E1CB9EEB500691065 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC5ABA911CB9EEB500691065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC5ABA941CB9EEB500691065 /* weixin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = weixin.xcdatamodel; sourceTree = "<group>"; };
 		FC5ABA961CB9EEB500691065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC5ABA991CB9EEB500691065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +76,17 @@
 		FC5ABAAB1CB9EEB500691065 /* weixinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weixinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5ABAAF1CB9EEB500691065 /* weixinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weixinUITests.swift; sourceTree = "<group>"; };
 		FC5ABAB11CB9EEB500691065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5ABAC21CB9F20300691065 /* StatusLightTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusLightTabBarController.swift; sourceTree = "<group>"; };
+		FC5ABAC41CB9F27400691065 /* WeiXinTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiXinTableViewController.swift; sourceTree = "<group>"; };
+		FC5ABAC61CB9F29700691065 /* TongXunLuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TongXunLuTableViewController.swift; sourceTree = "<group>"; };
+		FC5ABACC1CB9FC3D00691065 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC5ABACE1CB9FDD600691065 /* weixin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "weixin-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC5ABAD31CBA051500691065 /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		FC5DBF761CCF351D007DD610 /* PersonInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonInfoTableViewController.swift; sourceTree = "<group>"; };
+		FC5DBF781CCF378F007DD610 /* PersonInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonInfoTableViewCell.swift; sourceTree = "<group>"; };
+		FC5DBF7A1CCF8725007DD610 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		FC9597461CCE0B89005EDC55 /* PhotoPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerViewController.swift; sourceTree = "<group>"; };
+		FCA478AA1CE0D7A70063CEC0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA478AB1CE0D7A70063CEC0 /* SystemConfiguration.framework in Frameworks */,
+				D71A576B7070ACF9839BB3F1 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +116,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0E75033632A72DFE137C755 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C21C037D99CE20A93C43F3D6 /* Pods.debug.xcconfig */,
+				83D77721861952DED7C1498E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB29ECFB1483911DCEDA75D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCA478AA1CE0D7A70063CEC0 /* SystemConfiguration.framework */,
+				A7B48418FA71679C0C4CDDFF /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC5ABA801CB9EEB500691065 = {
 			isa = PBXGroup;
 			children = (
+				FC5ABAD31CBA051500691065 /* config.swift */,
+				FC5ABACC1CB9FC3D00691065 /* Podfile */,
 				FC5ABA8B1CB9EEB500691065 /* weixin */,
 				FC5ABAA31CB9EEB500691065 /* weixinTests */,
 				FC5ABAAE1CB9EEB500691065 /* weixinUITests */,
 				FC5ABA8A1CB9EEB500691065 /* Products */,
+				C0E75033632A72DFE137C755 /* Pods */,
+				CB29ECFB1483911DCEDA75D9 /* Frameworks */,
+				FC5ABACE1CB9FDD600691065 /* weixin-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +162,17 @@
 		FC5ABA8B1CB9EEB500691065 /* weixin */ = {
 			isa = PBXGroup;
 			children = (
-				FC5ABA8C1CB9EEB500691065 /* AppDelegate.swift */,
-				FC5ABA8E1CB9EEB500691065 /* ViewController.swift */,
-				FC5ABA901CB9EEB500691065 /* Main.storyboard */,
+				FC5ABABD1CB9F10700691065 /* AppDelegate */,
+				FC5ABABE1CB9F12500691065 /* weixin_group */,
+				FC5ABABF1CB9F14500691065 /* tongxunlu_group */,
+				FC5ABAC01CB9F14D00691065 /* faxian_group */,
+				FC5ABAC11CB9F14F00691065 /* wo_group */,
 				FC5ABA961CB9EEB500691065 /* Assets.xcassets */,
+				FC5ABA8E1CB9EEB500691065 /* ViewController.swift */,
 				FC5ABA981CB9EEB500691065 /* LaunchScreen.storyboard */,
 				FC5ABA9B1CB9EEB500691065 /* Info.plist */,
 				FC5ABA931CB9EEB500691065 /* weixin.xcdatamodeld */,
+				FC5DBF7A1CCF8725007DD610 /* Media.xcassets */,
 			);
 			path = weixin;
 			sourceTree = "<group>";
@@ -128,6 +195,151 @@
 			path = weixinUITests;
 			sourceTree = "<group>";
 		};
+		FC5ABABD1CB9F10700691065 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FC5ABA8C1CB9EEB500691065 /* AppDelegate.swift */,
+				FC5ABAC21CB9F20300691065 /* StatusLightTabBarController.swift */,
+				FC06D25B1CCDCDD000CD51D0 /* LoginViewController.swift */,
+				FC06D25D1CCDF5F900CD51D0 /* RegisterViewController.swift */,
+				FC9597461CCE0B89005EDC55 /* PhotoPickerViewController.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FC5ABABE1CB9F12500691065 /* weixin_group */ = {
+			isa = PBXGroup;
+			children = (
+				FC6D00301CC08D9200A86973 /* controller */,
+				FC6D002F1CC08D8D00A86973 /* view */,
+				FC6D002E1CC08D7D00A86973 /* model */,
+			);
+			name = weixin_group;
+			sourceTree = "<group>";
+		};
+		FC5ABABF1CB9F14500691065 /* tongxunlu_group */ = {
+			isa = PBXGroup;
+			children = (
+				FC6D002D1CC08D7100A86973 /* controller */,
+				FC6D002C1CC08D6B00A86973 /* view */,
+				FC6D002B1CC08D6600A86973 /* model */,
+			);
+			name = tongxunlu_group;
+			sourceTree = "<group>";
+		};
+		FC5ABAC01CB9F14D00691065 /* faxian_group */ = {
+			isa = PBXGroup;
+			children = (
+				FC6D002A1CC08D5300A86973 /* model */,
+				FC6D00291CC08D4400A86973 /* controller */,
+				FC6D00281CC08D3500A86973 /* view */,
+			);
+			name = faxian_group;
+			sourceTree = "<group>";
+		};
+		FC5ABAC11CB9F14F00691065 /* wo_group */ = {
+			isa = PBXGroup;
+			children = (
+				FC6D00331CC08DA800A86973 /* controller */,
+				FC6D00321CC08DA400A86973 /* view */,
+				FC6D00311CC08D9D00A86973 /* model */,
+			);
+			name = wo_group;
+			sourceTree = "<group>";
+		};
+		FC6D00281CC08D3500A86973 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FC06D2571CCDBA5B00CD51D0 /* FaXianNormalTableViewCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		FC6D00291CC08D4400A86973 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC1CFCCF1CC5171A0032FE2A /* FaXianTableViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		FC6D002A1CC08D5300A86973 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		FC6D002B1CC08D6600A86973 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		FC6D002C1CC08D6B00A86973 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		FC6D002D1CC08D7100A86973 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC5ABAC61CB9F29700691065 /* TongXunLuTableViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		FC6D002E1CC08D7D00A86973 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		FC6D002F1CC08D8D00A86973 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		FC6D00301CC08D9200A86973 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC5ABAC41CB9F27400691065 /* WeiXinTableViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		FC6D00311CC08D9D00A86973 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		FC6D00321CC08DA400A86973 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FC06D2531CCDA5FE00CD51D0 /* WoHeadTableViewCell.swift */,
+				FC06D2551CCDAAD100CD51D0 /* NormalTableViewCell.swift */,
+				FC5DBF781CCF378F007DD610 /* PersonInfoTableViewCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		FC6D00331CC08DA800A86973 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC1CFCCD1CC47ADB0032FE2A /* WoTableViewController.swift */,
+				FC5DBF761CCF351D007DD610 /* PersonInfoTableViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +347,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC5ABAB41CB9EEB500691065 /* Build configuration list for PBXNativeTarget "weixin" */;
 			buildPhases = (
+				B7C9868F10B6C459DBBAE5A7 /* Check Pods Manifest.lock */,
 				FC5ABA851CB9EEB500691065 /* Sources */,
 				FC5ABA861CB9EEB500691065 /* Frameworks */,
 				FC5ABA871CB9EEB500691065 /* Resources */,
+				D8A41215121DB97B04824FA4 /* Embed Pods Frameworks */,
+				D44B9177546CC731847622EB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +447,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5ABACD1CB9FC3D00691065 /* Podfile in Resources */,
 				FC5ABA9A1CB9EEB500691065 /* LaunchScreen.storyboard in Resources */,
+				FC5DBF7B1CCF8725007DD610 /* Media.xcassets in Resources */,
 				FC5ABA971CB9EEB500691065 /* Assets.xcassets in Resources */,
-				FC5ABA921CB9EEB500691065 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +470,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B7C9868F10B6C459DBBAE5A7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D44B9177546CC731847622EB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A41215121DB97B04824FA4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC5ABA851CB9EEB500691065 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC06D25C1CCDCDD000CD51D0 /* LoginViewController.swift in Sources */,
+				FC5DBF791CCF378F007DD610 /* PersonInfoTableViewCell.swift in Sources */,
+				FC5ABAC31CB9F20300691065 /* StatusLightTabBarController.swift in Sources */,
+				FC1CFCCE1CC47ADB0032FE2A /* WoTableViewController.swift in Sources */,
+				FC06D2581CCDBA5B00CD51D0 /* FaXianNormalTableViewCell.swift in Sources */,
+				FC1CFCD01CC5171A0032FE2A /* FaXianTableViewController.swift in Sources */,
+				FC9597471CCE0B89005EDC55 /* PhotoPickerViewController.swift in Sources */,
+				FC06D2541CCDA5FE00CD51D0 /* WoHeadTableViewCell.swift in Sources */,
+				FC06D2561CCDAAD100CD51D0 /* NormalTableViewCell.swift in Sources */,
+				FC5DBF771CCF351D007DD610 /* PersonInfoTableViewController.swift in Sources */,
+				FC5ABAC51CB9F27400691065 /* WeiXinTableViewController.swift in Sources */,
+				FC5ABAD41CBA051500691065 /* config.swift in Sources */,
+				FC06D25E1CCDF5F900CD51D0 /* RegisterViewController.swift in Sources */,
 				FC5ABA951CB9EEB500691065 /* weixin.xcdatamodeld in Sources */,
 				FC5ABA8F1CB9EEB500691065 /* ViewController.swift in Sources */,
+				FC5ABAC71CB9F29700691065 /* TongXunLuTableViewController.swift in Sources */,
 				FC5ABA8D1CB9EEB500691065 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +547,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA478AC1CE0EA5E0063CEC0 /* LoginViewController.swift in Sources */,
 				FC5ABAA51CB9EEB500691065 /* weixinTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +576,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FC5ABA901CB9EEB500691065 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC5ABA911CB9EEB500691065 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC5ABA981CB9EEB500691065 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -401,23 +672,34 @@
 		};
 		FC5ABAB51CB9EEB500691065 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21C037D99CE20A93C43F3D6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = weixin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zb-hsx.weixin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "weixin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FC5ABAB61CB9EEB500691065 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D77721861952DED7C1498E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = weixin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zb-hsx.weixin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "weixin-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -488,6 +770,7 @@
 				FC5ABAB61CB9EEB500691065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC5ABAB71CB9EEB500691065 /* Build configuration list for PBXNativeTarget "weixinTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +779,7 @@
 				FC5ABAB91CB9EEB500691065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC5ABABA1CB9EEB500691065 /* Build configuration list for PBXNativeTarget "weixinUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +788,7 @@
 				FC5ABABC1CB9EEB500691065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

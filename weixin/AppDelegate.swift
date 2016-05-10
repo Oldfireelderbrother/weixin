@@ -9,15 +9,53 @@
 import UIKit
 import CoreData
 
+
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate{
 
     var window: UIWindow?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        //初始化avcloud
+        
+//        let post:AVObject
+//        post=AVObject.init(className: "TestObject")
+//        post.addObject("HelloWorld!", forKey: "words")
+//        post.saveInBackgroundWithBlock { (Bool succeeded, NSError e) -> Void in
+//            if succeeded {
+//                print("123")
+//            }
+//       }
+        //设置UIWindow
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        
+        //let loginNavigationController = LoginNavigationController()
+        
+        let loginViewController = LoginViewController()
+        
+        let nvc = UINavigationController(rootViewController: loginViewController)
+        
+        //设置根视图
+        window?.rootViewController = nvc
+        
+        //使用对象的主窗口显示到屏幕的最前端
+        window?.makeKeyAndVisible()
+        
+        //设置导航条的颜色
+        UINavigationBar.appearance().tintColor = UIColor.purpleColor()
+        
+        //注册leancloud
+        AVOSCloud.setApplicationId("SdJkdODtrRh8PQAGeDYOjXgn-gzGzoHsz", clientKey: "2UqWcYBIMtkYcHUqvVRGRRc3")
         return true
+    }
+    
+    
+    func tabBarController(tabBarController: UITabBarController, didSelectViewController viewController: UIViewController) {
+        if viewController.isKindOfClass(UINavigationController.classForCoder()) {
+            (viewController as! UINavigationController).popToRootViewControllerAnimated(false)
+        }
     }
 
     func applicationWillResignActive(application: UIApplication) {

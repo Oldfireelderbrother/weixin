@@ -35,7 +35,7 @@ class RegisterViewController: UIViewController,PhotoPickerDelegate,UITextFieldDe
         setupView()
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -110,41 +110,41 @@ class RegisterViewController: UIViewController,PhotoPickerDelegate,UITextFieldDe
         UNtextFiled.resignFirstResponder()
     }
     func register(){
-//        //建立用户的AVObject
-//        let user = AVObject(className: "ZBuser")
-//        //把输入的文本框的值，设置到对象中
-//        user.addObject(self.UNtextFiled.text, forKey: "username")
-//        user.addObject(self.PNtextFiled.text, forKey: "phonenumber")
-//        user.addObject(self.PWtextFiled.text, forKey: "password")
-//        
-//        //查询用户是否已经注册
-//        let query = AVQuery(className: "ZBuser")
-//        query.whereKey("phonenumber", equalTo: self.PNtextFiled.text)
-//        
-//        //执行查询
-//        query.getFirstObjectInBackgroundWithBlock { (object, error) -> Void in
-//            if object != nil {
-//             print("1")
-//            }else{
-//               //用户注册
-//                user.saveInBackgroundWithBlock({ (succeed, e) -> Void in
-//                    if succeed {
-//                        print("11")
-//                        
-//                        let dataDict = NSDictionary(object: self.PNtextFiled.text!, forKey: "phonenumber")
-//                        
-//                        NSNotificationCenter.defaultCenter().postNotificationName("RegisterViewController", object: nil, userInfo: dataDict as [NSObject : AnyObject])
-//                        
-//                        self.navigationController?.popViewControllerAnimated(true)
-//                        
-//                    }else{
-//                        print("22")
-//                        
-//                    }
-//                })
-//            }
-//        }
-    //建立avuser拥护
+        //        //建立用户的AVObject
+        //        let user = AVObject(className: "ZBuser")
+        //        //把输入的文本框的值，设置到对象中
+        //        user.addObject(self.UNtextFiled.text, forKey: "username")
+        //        user.addObject(self.PNtextFiled.text, forKey: "phonenumber")
+        //        user.addObject(self.PWtextFiled.text, forKey: "password")
+        //
+        //        //查询用户是否已经注册
+        //        let query = AVQuery(className: "ZBuser")
+        //        query.whereKey("phonenumber", equalTo: self.PNtextFiled.text)
+        //
+        //        //执行查询
+        //        query.getFirstObjectInBackgroundWithBlock { (object, error) -> Void in
+        //            if object != nil {
+        //             print("1")
+        //            }else{
+        //               //用户注册
+        //                user.saveInBackgroundWithBlock({ (succeed, e) -> Void in
+        //                    if succeed {
+        //                        print("11")
+        //
+        //                        let dataDict = NSDictionary(object: self.PNtextFiled.text!, forKey: "phonenumber")
+        //
+        //                        NSNotificationCenter.defaultCenter().postNotificationName("RegisterViewController", object: nil, userInfo: dataDict as [NSObject : AnyObject])
+        //
+        //                        self.navigationController?.popViewControllerAnimated(true)
+        //
+        //                    }else{
+        //                        print("22")
+        //
+        //                    }
+        //                })
+        //            }
+        //        }
+        //建立avuser拥护
         let user = AVUser()
         user.username = PNtextFiled.text!
         user.password = PWtextFiled.text!
@@ -191,18 +191,17 @@ class RegisterViewController: UIViewController,PhotoPickerDelegate,UITextFieldDe
             
         }
     }
-
+    
     func getImageFromPicker(image: UIImage) {
         self.headImageButton.setBackgroundImage(image, forState: UIControlState.Normal)
     }
     /*
     // MARK: - Navigation
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Get the new view controller using segue.destinationViewController.
+    // Pass the selected object to the new view controller.
     }
     */
-
+    
 }
