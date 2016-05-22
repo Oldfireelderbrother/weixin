@@ -15,6 +15,8 @@
 		FC06D25E1CCDF5F900CD51D0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06D25D1CCDF5F900CD51D0 /* RegisterViewController.swift */; };
 		FC1CFCCE1CC47ADB0032FE2A /* WoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CFCCD1CC47ADB0032FE2A /* WoTableViewController.swift */; };
 		FC1CFCD01CC5171A0032FE2A /* FaXianTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CFCCF1CC5171A0032FE2A /* FaXianTableViewController.swift */; };
+		FC2119051CE6CF1200348589 /* UserFriendData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2119041CE6CF1200348589 /* UserFriendData.swift */; };
+		FC2119071CE71CD000348589 /* UserFriendDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2119061CE71CD000348589 /* UserFriendDataModel.swift */; };
 		FC5ABA8D1CB9EEB500691065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABA8C1CB9EEB500691065 /* AppDelegate.swift */; };
 		FC5ABA8F1CB9EEB500691065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABA8E1CB9EEB500691065 /* ViewController.swift */; };
 		FC5ABA951CB9EEB500691065 /* weixin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC5ABA931CB9EEB500691065 /* weixin.xcdatamodeld */; };
@@ -33,6 +35,9 @@
 		FC9597471CCE0B89005EDC55 /* PhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9597461CCE0B89005EDC55 /* PhotoPickerViewController.swift */; };
 		FCA478AB1CE0D7A70063CEC0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA478AA1CE0D7A70063CEC0 /* SystemConfiguration.framework */; };
 		FCA478AC1CE0EA5E0063CEC0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06D25B1CCDCDD000CD51D0 /* LoginViewController.swift */; };
+		FCC559111CE4B120008C86BB /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC559101CE4B120008C86BB /* ChatTableViewCell.swift */; };
+		FCC559131CE4B5A5008C86BB /* ChatConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC559121CE4B5A5008C86BB /* ChatConversationController.swift */; };
+		FCC559151CE4BB08008C86BB /* YourTestChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC559141CE4BB08008C86BB /* YourTestChatListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +68,8 @@
 		FC06D25D1CCDF5F900CD51D0 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		FC1CFCCD1CC47ADB0032FE2A /* WoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoTableViewController.swift; sourceTree = "<group>"; };
 		FC1CFCCF1CC5171A0032FE2A /* FaXianTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaXianTableViewController.swift; sourceTree = "<group>"; };
+		FC2119041CE6CF1200348589 /* UserFriendData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFriendData.swift; sourceTree = "<group>"; };
+		FC2119061CE71CD000348589 /* UserFriendDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFriendDataModel.swift; sourceTree = "<group>"; };
 		FC5ABA891CB9EEB500691065 /* weixin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weixin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5ABA8C1CB9EEB500691065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC5ABA8E1CB9EEB500691065 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +94,9 @@
 		FC5DBF7A1CCF8725007DD610 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		FC9597461CCE0B89005EDC55 /* PhotoPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerViewController.swift; sourceTree = "<group>"; };
 		FCA478AA1CE0D7A70063CEC0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FCC559101CE4B120008C86BB /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		FCC559121CE4B5A5008C86BB /* ChatConversationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatConversationController.swift; sourceTree = "<group>"; };
+		FCC559141CE4BB08008C86BB /* YourTestChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourTestChatListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,6 +283,8 @@
 		FC6D002B1CC08D6600A86973 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				FC2119041CE6CF1200348589 /* UserFriendData.swift */,
+				FC2119061CE71CD000348589 /* UserFriendDataModel.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -280,6 +292,7 @@
 		FC6D002C1CC08D6B00A86973 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				FCC559101CE4B120008C86BB /* ChatTableViewCell.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -309,6 +322,8 @@
 		FC6D00301CC08D9200A86973 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				FCC559121CE4B5A5008C86BB /* ChatConversationController.swift */,
+				FCC559141CE4BB08008C86BB /* YourTestChatListViewController.swift */,
 				FC5ABAC41CB9F27400691065 /* WeiXinTableViewController.swift */,
 			);
 			name = controller;
@@ -526,11 +541,14 @@
 				FC06D25C1CCDCDD000CD51D0 /* LoginViewController.swift in Sources */,
 				FC5DBF791CCF378F007DD610 /* PersonInfoTableViewCell.swift in Sources */,
 				FC5ABAC31CB9F20300691065 /* StatusLightTabBarController.swift in Sources */,
+				FCC559111CE4B120008C86BB /* ChatTableViewCell.swift in Sources */,
 				FC1CFCCE1CC47ADB0032FE2A /* WoTableViewController.swift in Sources */,
 				FC06D2581CCDBA5B00CD51D0 /* FaXianNormalTableViewCell.swift in Sources */,
 				FC1CFCD01CC5171A0032FE2A /* FaXianTableViewController.swift in Sources */,
 				FC9597471CCE0B89005EDC55 /* PhotoPickerViewController.swift in Sources */,
 				FC06D2541CCDA5FE00CD51D0 /* WoHeadTableViewCell.swift in Sources */,
+				FCC559151CE4BB08008C86BB /* YourTestChatListViewController.swift in Sources */,
+				FCC559131CE4B5A5008C86BB /* ChatConversationController.swift in Sources */,
 				FC06D2561CCDAAD100CD51D0 /* NormalTableViewCell.swift in Sources */,
 				FC5DBF771CCF351D007DD610 /* PersonInfoTableViewController.swift in Sources */,
 				FC5ABAC51CB9F27400691065 /* WeiXinTableViewController.swift in Sources */,
@@ -538,7 +556,9 @@
 				FC06D25E1CCDF5F900CD51D0 /* RegisterViewController.swift in Sources */,
 				FC5ABA951CB9EEB500691065 /* weixin.xcdatamodeld in Sources */,
 				FC5ABA8F1CB9EEB500691065 /* ViewController.swift in Sources */,
+				FC2119051CE6CF1200348589 /* UserFriendData.swift in Sources */,
 				FC5ABAC71CB9F29700691065 /* TongXunLuTableViewController.swift in Sources */,
+				FC2119071CE71CD000348589 /* UserFriendDataModel.swift in Sources */,
 				FC5ABA8D1CB9EEB500691065 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

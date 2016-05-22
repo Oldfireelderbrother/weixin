@@ -141,12 +141,23 @@ UITextFieldDelegate{
                             sleep(1)
                             }, completionBlock: { () -> Void in
                                 
+                                RCIM.sharedRCIM().connectWithToken("P8Z7SWtrHpbvI4zgdqzqOkZEhXKsNot2f70oV1bX4Q+QQ2i7+BzUe+IBQNc/fhDnfsBYN0iN9Q2/atF/vQ8GLA==", success: { (userid) -> Void in
+                                    print("登录成功，当前的用户id：\(userid)")
+                                    }, error: { (status) -> Void in
+                                       
+                                        print("登录的错误码为:\(status.rawValue)")
+                                    }, tokenIncorrect: { () -> Void in
+                                        
+                                        print("token错误")
+                                })
                                 self.hud.removeFromSuperview()
                                 //设置微信
-                                let nav1 = UINavigationController(rootViewController: WeiXinTableViewController())
+                                let nav1 = UINavigationController(rootViewController: //WeiXinTableViewController()
+                                YourTestChatListViewController())
                                 
                                 //设置通讯录
-                                let nav2 = UINavigationController(rootViewController: TongXunLuTableViewController())
+                                let nav2 = UINavigationController(rootViewController:TongXunLuTableViewController()
+                                )
                                 
                                 //设置发现
                                 let nav3 = UINavigationController(rootViewController: FaXianTableViewController())
@@ -172,6 +183,8 @@ UITextFieldDelegate{
                                 self.presentViewController(tabBarController, animated: true, completion: nil)
                                 
                         })
+                        
+                        
                         
                     }else{
                         self.hud = MBProgressHUD.init(view: self.view)
