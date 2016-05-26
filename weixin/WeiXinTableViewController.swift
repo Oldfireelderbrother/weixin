@@ -11,6 +11,7 @@ import UIKit
 class WeiXinTableViewController: UITableViewController {
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         self.navigationController?.navigationBar.tintColor=UIColor.whiteColor()
         self.navigationController?.navigationBar.barTintColor=UIColor.blackColor()

@@ -8,16 +8,23 @@
 
 import UIKit
 
-class WoTableViewController: UITableViewController {
+class WoTableViewController: UITableViewController,selectIndexPathDelegate {
 
     private struct CellIdentifier {
         static let HeadCellIdentifier = "HeadCell"
         
         static let NormalCellIdentifier = "NormalCell"
     }
+    var btn :UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        btn = UIButton(type: .ContactAdd)
+        btn.frame = CGRect(x: 0, y: 0, width: 40, height: 40)
+        btn.setTitle("", forState: .Normal)
+        btn.addTarget(self, action: "btnClick:", forControlEvents: .TouchUpInside)
+        var bTn = UIBarButtonItem.init(customView: btn)
+
         self.automaticallyAdjustsScrollViewInsets = true
         
         self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
@@ -30,7 +37,7 @@ class WoTableViewController: UITableViewController {
         navigationController?.navigationBar.titleTextAttributes = attributes
        
         self.navigationItem.title = "微信"
-        
+        self.navigationItem.rightBarButtonItem = bTn
         self.tableView.delegate = self
         
         self.tableView.dataSource = self
@@ -162,6 +169,46 @@ class WoTableViewController: UITableViewController {
         else
         {
             return  SCREEN_HEIGHT/12
+        }
+    }
+
+    func btnClick(btn : UIButton){
+        var point = CGPoint(x: btn.center.x, y: btn.center.y+64)
+        var view1 = XTPopView.init(origin: point, width: 130, height: 40*4, type: XTDirectionType.TypeOfRightUp, color: UIColor(colorLiteralRed: 0.2737, green: 0.2737, blue: 0.2737, alpha: 1.0))
+        view1.dataArray = ["发起群聊","添加朋友","扫一扫","收付款"]
+        view1.images = ["发起群聊","添加朋友","扫一扫","付款"]
+        view1.fontSize = 13
+        view1.row_height = 40
+        view1.titleTextColor = UIColor.whiteColor()
+        view1.delegate = self
+        view1.popView()
+        
+    }
+    
+    func selectIndexPathRow(index: Int) {
+        switch (index) {
+        case 0:
+            
+            print("1")
+            
+            break
+        case 1:
+            
+            print("2")
+            
+            break
+        case 2:
+            
+            print("3")
+            
+            break
+        case 3:
+            
+            print("4")
+            
+            break
+        default:
+            break
         }
     }
 

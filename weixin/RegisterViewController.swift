@@ -54,7 +54,7 @@ class RegisterViewController: UIViewController,PhotoPickerDelegate,UITextFieldDe
         
         headImageButton = UIButton(frame: CGRect(x: SCREEN_WIDTH-100, y: 65, width: 80, height: 80))
         
-        let image = UIImage(named: "a3t")
+        let image = UIImage(named: "icon_avatar")
         
         headImageButton.setBackgroundImage(image, forState: .Normal)
         
@@ -145,9 +145,14 @@ class RegisterViewController: UIViewController,PhotoPickerDelegate,UITextFieldDe
         //            }
         //        }
         //建立avuser拥护
+        print("aa")
         let user = AVUser()
         user.username = PNtextFiled.text!
         user.password = PWtextFiled.text!
+        let imageData = UIImagePNGRepresentation(self.headImageButton!.currentBackgroundImage!)
+        
+        let imageFile = AVFile(data: imageData)
+        user.addObject(imageFile, forKey: "headImage")
         user.addObject(UNtextFiled.text!, forKey: "name_1")
         user.saveInBackground()
         user.email=nil
@@ -160,8 +165,11 @@ class RegisterViewController: UIViewController,PhotoPickerDelegate,UITextFieldDe
                 self.hud.showAnimated(true, whileExecutingBlock: { () -> Void in
                     sleep(1)
                     }, completionBlock: { () -> Void in
+                        //界面之间的值传递
                         let dataDict = NSDictionary(object: self.PNtextFiled.text!, forKey: "phonenumber")
                         NSNotificationCenter.defaultCenter().postNotificationName("RegisterViewController", object: nil, userInfo: dataDict as [NSObject : AnyObject])
+                        
+                        
                         self.hud.removeFromSuperview()
                         self.navigationController?.popViewControllerAnimated(true)
                 })
