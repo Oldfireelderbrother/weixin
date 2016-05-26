@@ -17,10 +17,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-
+        //初始化avcloud
+        
+//        let post:AVObject
+//        post=AVObject.init(className: "TestObject")
+//        post.addObject("HelloWorld!", forKey: "words")
+//        post.saveInBackgroundWithBlock { (Bool succeeded, NSError e) -> Void in
+//            if succeeded {
+//                print("123")
+//            }
+//       }
         //设置UIWindow
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
+        
+        //let loginNavigationController = LoginNavigationController()
         
         let loginViewController = LoginViewController()
         
@@ -37,8 +48,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
         
         //注册leancloud
         AVOSCloud.setApplicationId("SdJkdODtrRh8PQAGeDYOjXgn-gzGzoHsz", clientKey: "2UqWcYBIMtkYcHUqvVRGRRc3")
-        //注册融云
-        RCIM.sharedRCIM().initWithAppKey("0vnjpoadn9ptz")
         return true
     }
     
