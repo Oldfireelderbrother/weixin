@@ -61,8 +61,8 @@ class YourTestChatListViewController: RCConversationListViewController ,selectIn
             
             break
         case 1:
-            
-                print("2")
+            let afViewC = AddFriendViewController()
+                self.navigationController?.pushViewController(afViewC, animated: true)
             
             break
         case 2:

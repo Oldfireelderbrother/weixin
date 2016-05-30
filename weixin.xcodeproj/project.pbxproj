@@ -13,6 +13,10 @@
 		FC06D2581CCDBA5B00CD51D0 /* FaXianNormalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06D2571CCDBA5B00CD51D0 /* FaXianNormalTableViewCell.swift */; };
 		FC06D25C1CCDCDD000CD51D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06D25B1CCDCDD000CD51D0 /* LoginViewController.swift */; };
 		FC06D25E1CCDF5F900CD51D0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06D25D1CCDF5F900CD51D0 /* RegisterViewController.swift */; };
+		FC0BE7F51CFBD52A00AA17F2 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0BE7F41CFBD52A00AA17F2 /* AddFriendViewController.swift */; };
+		FC0BE7F71CFBDEE700AA17F2 /* ShowSearchContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0BE7F61CFBDEE700AA17F2 /* ShowSearchContentTableViewController.swift */; };
+		FC0BE7F91CFBE8BB00AA17F2 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0BE7F81CFBE8BB00AA17F2 /* SettingTableViewController.swift */; };
+		FC0BE7FB1CFBEAF800AA17F2 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0BE7FA1CFBEAF800AA17F2 /* SettingTableViewCell.swift */; };
 		FC1CFCCE1CC47ADB0032FE2A /* WoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CFCCD1CC47ADB0032FE2A /* WoTableViewController.swift */; };
 		FC1CFCD01CC5171A0032FE2A /* FaXianTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CFCCF1CC5171A0032FE2A /* FaXianTableViewController.swift */; };
 		FC2119051CE6CF1200348589 /* UserFriendData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2119041CE6CF1200348589 /* UserFriendData.swift */; };
@@ -69,6 +73,10 @@
 		FC06D2571CCDBA5B00CD51D0 /* FaXianNormalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaXianNormalTableViewCell.swift; sourceTree = "<group>"; };
 		FC06D25B1CCDCDD000CD51D0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FC06D25D1CCDF5F900CD51D0 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FC0BE7F41CFBD52A00AA17F2 /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		FC0BE7F61CFBDEE700AA17F2 /* ShowSearchContentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowSearchContentTableViewController.swift; sourceTree = "<group>"; };
+		FC0BE7F81CFBE8BB00AA17F2 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		FC0BE7FA1CFBEAF800AA17F2 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 		FC1CFCCD1CC47ADB0032FE2A /* WoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoTableViewController.swift; sourceTree = "<group>"; };
 		FC1CFCCF1CC5171A0032FE2A /* FaXianTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaXianTableViewController.swift; sourceTree = "<group>"; };
 		FC2119041CE6CF1200348589 /* UserFriendData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFriendData.swift; sourceTree = "<group>"; };
@@ -221,6 +229,8 @@
 				FC06D25B1CCDCDD000CD51D0 /* LoginViewController.swift */,
 				FC06D25D1CCDF5F900CD51D0 /* RegisterViewController.swift */,
 				FC9597461CCE0B89005EDC55 /* PhotoPickerViewController.swift */,
+				FC0BE7F41CFBD52A00AA17F2 /* AddFriendViewController.swift */,
+				FC0BE7F61CFBDEE700AA17F2 /* ShowSearchContentTableViewController.swift */,
 			);
 			name = AppDelegate;
 			sourceTree = "<group>";
@@ -352,6 +362,7 @@
 				FC06D2531CCDA5FE00CD51D0 /* WoHeadTableViewCell.swift */,
 				FC06D2551CCDAAD100CD51D0 /* NormalTableViewCell.swift */,
 				FC5DBF781CCF378F007DD610 /* PersonInfoTableViewCell.swift */,
+				FC0BE7FA1CFBEAF800AA17F2 /* SettingTableViewCell.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -361,6 +372,7 @@
 			children = (
 				FC1CFCCD1CC47ADB0032FE2A /* WoTableViewController.swift */,
 				FC5DBF761CCF351D007DD610 /* PersonInfoTableViewController.swift */,
+				FC0BE7F81CFBE8BB00AA17F2 /* SettingTableViewController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -453,6 +465,7 @@
 				TargetAttributes = {
 					FC5ABA881CB9EEB500691065 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8TEW5X8W4W;
 					};
 					FC5ABA9F1CB9EEB500691065 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -565,9 +578,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC0BE7F91CFBE8BB00AA17F2 /* SettingTableViewController.swift in Sources */,
 				FC06D25C1CCDCDD000CD51D0 /* LoginViewController.swift in Sources */,
 				FC5DBF791CCF378F007DD610 /* PersonInfoTableViewCell.swift in Sources */,
 				FC497A1B1CF1942F005AB350 /* PersonInfoDataModel.swift in Sources */,
+				FC0BE7FB1CFBEAF800AA17F2 /* SettingTableViewCell.swift in Sources */,
 				FC497A191CF1937E005AB350 /* PersonInfoData.swift in Sources */,
 				FC5ABAC31CB9F20300691065 /* StatusLightTabBarController.swift in Sources */,
 				FCC559111CE4B120008C86BB /* ChatTableViewCell.swift in Sources */,
@@ -576,7 +591,9 @@
 				FC1CFCD01CC5171A0032FE2A /* FaXianTableViewController.swift in Sources */,
 				FC9597471CCE0B89005EDC55 /* PhotoPickerViewController.swift in Sources */,
 				FC06D2541CCDA5FE00CD51D0 /* WoHeadTableViewCell.swift in Sources */,
+				FC0BE7F71CFBDEE700AA17F2 /* ShowSearchContentTableViewController.swift in Sources */,
 				FCC559151CE4BB08008C86BB /* YourTestChatListViewController.swift in Sources */,
+				FC0BE7F51CFBD52A00AA17F2 /* AddFriendViewController.swift in Sources */,
 				FCC559131CE4B5A5008C86BB /* ChatConversationController.swift in Sources */,
 				FC06D2561CCDAAD100CD51D0 /* NormalTableViewCell.swift in Sources */,
 				FC5DBF771CCF351D007DD610 /* PersonInfoTableViewController.swift in Sources */,
@@ -726,11 +743,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = weixin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zb-hsx.weixin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "weixin-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -743,11 +763,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = weixin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zb-hsx.weixin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "weixin-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

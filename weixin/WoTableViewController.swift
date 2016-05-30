@@ -158,6 +158,10 @@ class WoTableViewController: UITableViewController,selectIndexPathDelegate {
         case(0,0):
             let pitView = PersonInfoTableViewController()
             self.navigationController?.pushViewController(pitView, animated: true)
+        case(4,0):
+            let stTableView = SettingTableViewController()
+            self.navigationController?.pushViewController(stTableView, animated: true)
+            
         default:break
         }
     }
@@ -194,7 +198,8 @@ class WoTableViewController: UITableViewController,selectIndexPathDelegate {
             break
         case 1:
             
-            print("2")
+            let afViewC = AddFriendViewController()
+            self.navigationController?.pushViewController(afViewC, animated: true)
             
             break
         case 2:
